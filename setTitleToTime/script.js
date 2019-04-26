@@ -2,7 +2,9 @@ function updateTitle() {
 	let now = Date()
 	let formatted = now.match("/\d+:\d+:\d+/")
 	
-	document.title = formatted
+	alert(typeof(formatted))
+	
+	document.title = ""
 }
 
 setInterval(updateTitle, 1000)
