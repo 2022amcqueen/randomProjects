@@ -2,7 +2,7 @@ function updateTitle() {
 	let now = Date()
 	let formatted = now.match("/\d+:\d+:\d+/")
 	
-	alert(typeof(formatted))
+	alert(formatted[1])
 	
 	document.title = ""
 }
