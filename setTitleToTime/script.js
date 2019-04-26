@@ -4,4 +4,4 @@ function updateTitle() {
 	document.title = now
 }
 
-setInterval(10, 1000)
+setInterval(updateTitle, 1000)
