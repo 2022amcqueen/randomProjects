@@ -1,6 +1,7 @@
 function updateTitle() {
 	let now = Date()
 	
+	alert(now)
 	document.title = now
 }
 
