@@ -1,5 +1,5 @@
 function updateTitle() {
-	local now = Date()
+	let now = Date()
 	
 	document.title = now
 }
